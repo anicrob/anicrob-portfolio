@@ -1,0 +1,33 @@
+.navlink {
+ text-decoration: none;
+ padding: 10px
+}
+
+.active {
+    color:orange;
+    text-decoration: none;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max;
+}
+
+link {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style-type: none;
+}
+.removeborder {
+    --bs-nav-tabs-border-color: none;
+}

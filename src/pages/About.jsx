@@ -17,11 +17,12 @@ export default function About() {
         </p>
         <p>
           The company opened a Project Specialist position, which I thought was
-          my dream job, but I missed the Jira technical stuff so much and had so
-          much stress, I left the company to become an Atlassian (Jira) Business
-          consultant where I could mix my technical and business skills.
-          However, it is hard to recommend certain soutions that require
-          examining code or scripts without knowing how to code.
+          my dream job, but after being in the position for a few months, I
+          missed the Jira technical stuff so much and had so much stress, I left
+          the company to become an Atlassian (Jira) Business consultant where I
+          could mix my technical and business skills. However, it is hard to
+          recommend certain soutions that require examining code or scripts
+          without knowing how to code.
         </p>
         <p>
           After finishing the UNC Full Stack Web Development Bootcamp, I am now

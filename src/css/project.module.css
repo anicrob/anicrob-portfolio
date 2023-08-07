@@ -1,0 +1,40 @@
+.card {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin: 20px;
+  justify-content:center;
+}
+.cardtitle {
+    margin-top: 50px;
+}
+.cardbody {
+    display: contents;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.github {
+  height: 50px;
+  width: 50px;
+}
+.title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+img:hover {
+    opacity: .5;
+}

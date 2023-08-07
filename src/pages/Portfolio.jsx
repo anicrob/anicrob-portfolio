@@ -5,6 +5,8 @@ import recipePatch from "../../public/recipe-patch.png";
 import challengeFitness from "../../public/challenge-fitness.png";
 import readmeGen from '../../public/README-generator.png'
 import weatherApp from '../../public/weather-app.png'
+import projectStyles from '../css/project.module.css'
+
 
 const projectData = [
   {
@@ -15,7 +17,7 @@ const projectData = [
     img: recipePatch,
   },
   {
-    title: "Challenge Fitness",
+    title: "Fitness App",
     technology: "MySQL & Handlebars",
     githubLink:
       "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
@@ -43,6 +45,8 @@ export default function Portfolio() {
   return (
     <>
       <Header />
+      <h3 className={projectStyles.title}>My Projects</h3>
+      <div className={projectStyles.container}>
       {projectData.map(
         ({ title, technology, githubLink, deployment, img }, i) => (
           <Project
@@ -55,6 +59,7 @@ export default function Portfolio() {
           />
         )
       )}
+      </div>
       <Footer />
     </>
   );

@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState } from "react";
 import validEmail from "../helpers/helpers";
+import contactStyles from "../css/contact.module.css"
 
 export default function Contact() {
   const [name, setName] = useState("")
@@ -72,7 +73,7 @@ export default function Contact() {
         </form>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className={`${contactStyles.errortext}`}>{errorMessage}</p>
           </div>
         )}
       </div>
