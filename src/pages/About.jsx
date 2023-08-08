@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import advatar from "/advatar.png";
 
 const style = {
   paragraphs: {
@@ -8,7 +9,18 @@ const style = {
     marginTop: 30,
   },
   heading: {
-    marginTop: 30,
+    marginTop: 15,
+  },
+  advatar: {
+    width: 150,
+    height: 170,
+  },
+  header: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexDirection: 'column-reverse',
+
   }
 }
 export default function About() {
@@ -16,7 +28,11 @@ export default function About() {
     <>
       <Header />
       <div className='mx-3'>
+        <div style={style.header}>        
         <h1 style={style.heading}>About Me</h1>
+        <a href="https://github.com/anicrob"><img src={advatar} style={style.advatar} alt='my advatar'/></a>
+        </div>
+
         <p style={style.paragraphs}>
           Life can be funny sometimes. I went to school for business admin with
           a concentration in project management, but my first job was in IT. I

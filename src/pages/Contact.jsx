@@ -31,12 +31,27 @@ export default function Contact() {
     const inputValue = e.target.value;
     switch (id) {
       case "email":
-        if (!validEmail(inputValue)) {
-          setErrorMessage("Please enter a valid email!");
+        if (!validEmail(inputValue) || !inputValue) {
+          setErrorMessage("It is required to enter a valid email!");
+          setTimeout(() => setErrorMessage(''), 3000);
           return;
         }
+      break;
+      case "name":
+        if (!inputValue){
+          setErrorMessage('Name is required')
+          setTimeout(() => setErrorMessage(''), 3000);
+          return;
+        }
+      break;
+      case "message":
+        if (!inputValue){
+          setErrorMessage('Message is required')
+          setTimeout(() => setErrorMessage(''), 3000);
+          return;
+        }
+      break;
     }
-    setErrorMessage('')
   };
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -61,6 +76,7 @@ export default function Contact() {
             type="text"
             placeholder="Type your name here."
             className={`${contactStyles.inputStyling}`}
+            onBlur= {validate}
           />
           <input
             id="email"
@@ -80,6 +96,7 @@ export default function Contact() {
             type="text"
             placeholder="Please type your message here."
             className={`${contactStyles.inputStyling}`}
+            onBlur= {validate}
           />
           <button className={`${contactStyles.button}`} type="submit">
             Submit
