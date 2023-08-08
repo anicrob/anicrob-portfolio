@@ -7,11 +7,9 @@ This site uses react components to create a simply designed portfolio site.
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
+* [Contribution](#contribution)
+* [Links](#links)
 
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 
 ## Installation
 
@@ -24,4 +22,8 @@ npm i
 
 Code by anicrob with minor troubleshooting assistance from UNC tutor. 
 
-## 
+## Links
+
+Repo: https://github.com/anicrob/anicrob-portfolio
+
+Deployed App: 
