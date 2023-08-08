@@ -1,12 +1,12 @@
 form {
-    display: grid;
+    display:flex;
+    flex-direction: column;
     width: 500px;
-    height: 150px;
+    height: max-content;
     margin: 15px;
+    margin-top:30px
 }
-input, textarea, button {
-    margin-top: 15px;
-}
+
 button {
     width: max-content;
 }
@@ -14,4 +14,19 @@ button {
     margin: 50px;
     color: red;
     width: max-content;
+}
+.header {
+    margin-top: 50px;
+}
+.inputStyling{
+    margin-top: 30px;
+}
+.button {
+    margin-top: 30px;
+
+}
+@media screen and (width < 768px){
+    form{
+        max-width: max-content;
+    }
 }

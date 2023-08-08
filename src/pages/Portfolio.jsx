@@ -1,10 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
-import recipePatch from "../../public/recipe-patch.png";
-import challengeFitness from "../../public/challenge-fitness.png";
-import readmeGen from '../../public/README-generator.png'
-import weatherApp from '../../public/weather-app.png'
 import projectStyles from '../css/project.module.css'
 
 
@@ -14,7 +10,7 @@ const projectData = [
     technology: "JavaScript and Third-Party APIs",
     githubLink: "https://github.com/anicrob/recipe-patch-andrea",
     deployment: "https://anicrob.github.io/recipe-patch-andrea/",
-    img: recipePatch,
+    img: '/recipe-patch.png',
   },
   {
     title: "Fitness App",
@@ -22,14 +18,14 @@ const projectData = [
     githubLink:
       "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
     deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
-    img: challengeFitness,
+    img: '/challenge-fitness.png',
   },
   {
     title: "README Generator",
     technology: "Inquirer and Node.js",
     githubLink: "https://github.com/anicrob/README_generator",
     deployment: "https://watch.screencastify.com/v/HrcOwgfszPWBDXuUE039",
-    img: readmeGen,
+    img: '/README-generator.png',
   },
   {
     title: "Weather App",
@@ -37,7 +33,7 @@ const projectData = [
     githubLink:
       "https://github.com/anicrob/weather-app-6",
       deployment: 'https://anicrob.github.io/weather-app-6/',
-    img: weatherApp,
+    img: '/weather-app.png',
   },
 ];
 
@@ -55,7 +51,7 @@ export default function Portfolio() {
             Link={githubLink}
             Image={img}
             Deploy={deployment}
-            Key={i}
+            key={i}
           />
         )
       )}

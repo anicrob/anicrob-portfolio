@@ -1,9 +1,9 @@
-import GitHub from '../../public/github.jpg'
+import GitHub from '/github.jpg'
 import projectStyles from '../css/project.module.css'
 
 
-export default function Project({Title, Technology, Link, Deploy, Image, Key}) {
-  return <div className ={`card ${projectStyles.card}`} key={Key}>
+export default function Project({Title, Technology, Link, Deploy, Image}) {
+  return <div className ={`card ${projectStyles.card} ${projectStyles.blueBorder}`} >
     <a href={`${Deploy}`}>
     <img src={Image} className= "card-image-top" />
     </a>

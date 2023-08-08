@@ -1,11 +1,12 @@
 .navlink {
  text-decoration: none;
- padding: 10px
+ padding: 10px;
+ color: rgb(0, 0, 0);
 }
 
 .active {
-    color:orange;
     text-decoration: none;
+    border-bottom: 3px solid white;
 }
 
 header {
@@ -13,14 +14,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: max;
 }
 
 link {
     text-decoration: none;
 }
 
-ul {
+.nav {
     display: flex;
     text-decoration: none;
     flex-wrap: wrap;
@@ -28,6 +28,20 @@ ul {
     align-items: baseline;
     list-style-type: none;
 }
-.removeborder {
-    --bs-nav-tabs-border-color: none;
+@media screen and (width < 768px){
+    header {
+        display: block;
+        text-align: center;
+    }
+    .active {
+        color: gold;
+        border-bottom: none;
+        font-weight: bold;
+    }
+    .nav {
+        display: block;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
 }

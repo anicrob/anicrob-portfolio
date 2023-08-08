@@ -34,7 +34,9 @@ img {
     margin-top: 100px;
     font-size: 50px;
 }
-
+.blueBorder {
+  border-color:aquamarine !important
+}
 img:hover {
     opacity: .5;
 }

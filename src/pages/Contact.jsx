@@ -2,74 +2,88 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState } from "react";
 import validEmail from "../helpers/helpers";
-import contactStyles from "../css/contact.module.css"
+import contactStyles from "../css/contact.module.css";
 
 export default function Contact() {
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-
   const handleInputChange = (e) => {
-
     const id = e.target.id;
     const inputValue = e.target.value;
 
     switch (id) {
-      case 'name': setName(inputValue);
-      break;
-      case 'email': 
-      if(inputValue && !validEmail(inputValue)) {
-        setErrorMessage("Please enter a valid email!");
-        return;
-      } else {
-        setEmail(inputValue)
-      }
-      break;
-      case 'message': setMessage(inputValue)
-      break;
+      case "name":
+        setName(inputValue);
+        break;
+      case "email":
+          setEmail(inputValue);
+        break;
+      case "message":
+        setMessage(inputValue);
+        break;
     }
-  }
+  };
+  const validate = (e) => {
+    const id = e.target.id;
+    const inputValue = e.target.value;
+    switch (id) {
+      case "email":
+        if (!validEmail(inputValue)) {
+          setErrorMessage("Please enter a valid email!");
+          return;
+        }
+    }
+    setErrorMessage('')
+  };
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    setName('');
-    setEmail('');
-    setMessage('');
-    alert('Message has been sent!')
-  }
+    setName("");
+    setEmail("");
+    setMessage("");
+    alert("Message has been sent!");
+  };
 
   return (
     <>
       <Header />
-      <div>
-        <h1>Contact Page</h1>
+      <div className='mx-3'>
+        <h1 className={`${contactStyles.header}`}>Contact Page</h1>
+        <p></p>
         <form className="form" onSubmit={handleFormSubmit}>
           <input
-            id= "name"
+            id="name"
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
             placeholder="Type your name here."
+            className={`${contactStyles.inputStyling}`}
           />
           <input
-          id = "email"
+            id="email"
             value={email}
             name="email address"
             onChange={handleInputChange}
             type="text"
-            placeholder="Add a valid email address here."
+            placeholder="Add a valid email here."
+            className={`${contactStyles.inputStyling}`}
+            onBlur= {validate}
           />
           <textarea
-          id = "message"
+            id="message"
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Please type your message here."
+            className={`${contactStyles.inputStyling}`}
           />
-          <button type="submit">Submit</button>
+          <button className={`${contactStyles.button}`} type="submit">
+            Submit
+          </button>
         </form>
         {errorMessage && (
           <div>
