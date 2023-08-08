@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('lp.jpg')
+    background-image: url('lp.jpg');
 }
 
 link {
@@ -30,13 +30,24 @@ link {
     list-style-type: none;
     background: #87e5c3;
 }
+.title {
+    color: black;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 30px;
+}
 @media screen and (width < 768px){
+    .title {
+        text-align: center;
+        margin-top: 0px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
     header {
         display: block;
-        text-align: center;
+        flex-direction: column;
     }
     .nav {
-        display: block;
         flex-direction: column;
         align-items: center;
     }
