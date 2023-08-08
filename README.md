@@ -26,4 +26,4 @@ Code by anicrob with minor troubleshooting assistance from UNC tutor.
 
 Repo: https://github.com/anicrob/anicrob-portfolio
 
-Deployed App: 
+Deployed App: https://anicrob.netlify.app/
