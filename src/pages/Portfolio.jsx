@@ -6,6 +6,13 @@ import projectStyles from '../css/project.module.css'
 
 const projectData = [
   {
+    title: "ChoreBuddy",
+    technology: "MERN Stack",
+    githubLink: "https://github.com/Dinh282/chore-buddy",
+    deployment: "https://chore-buddy-6e6d2559dc60.herokuapp.com/dashboard",
+    img: '/chorebudylogo.png',
+  },
+  {
     title: "Recipe Patch",
     technology: "JavaScript and Third-Party APIs",
     githubLink: "https://github.com/anicrob/recipe-patch-andrea",
@@ -35,21 +42,14 @@ const projectData = [
       deployment: 'https://anicrob.github.io/weather-app-6/',
     img: '/weather-app.png',
   },
-  {
-    title: "Recipe Patch",
-    technology: "JavaScript and Third-Party APIs",
-    githubLink: "https://github.com/anicrob/recipe-patch-andrea",
-    deployment: "https://anicrob.github.io/recipe-patch-andrea/",
-    img: '/recipe-patch.png',
-  },
-  {
-    title: "Fitness App",
-    technology: "MySQL & Handlebars",
-    githubLink:
-      "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
-    deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
-    img: '/challenge-fitness.png',
-  },
+  // {
+  //   title: "Fitness App",
+  //   technology: "MySQL & Handlebars",
+  //   githubLink:
+  //     "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
+  //   deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
+  //   img: '/challenge-fitness.png',
+  // },
 ];
 
 export default function Portfolio() {
