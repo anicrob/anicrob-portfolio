@@ -23,7 +23,7 @@ const projectData = [
     title: "Fitness App",
     technology: "MySQL & Handlebars",
     githubLink:
-      "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
+      "https://github.com/anicrob/fitness-app",
     deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
     img: '/challenge-fitness.png',
   },
@@ -42,14 +42,6 @@ const projectData = [
       deployment: 'https://anicrob.github.io/weather-app-6/',
     img: '/weather-app.png',
   },
-  // {
-  //   title: "Fitness App",
-  //   technology: "MySQL & Handlebars",
-  //   githubLink:
-  //     "https://www.desiringgod.org/articles/letter-to-a-friend-concerning-the-so-called-lordship-salvation",
-  //   deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
-  //   img: '/challenge-fitness.png',
-  // },
 ];
 
 export default function Portfolio() {
