@@ -52,7 +52,7 @@ export default function About() {
         </p>
         <p style={style.paragraphs}>
           After finishing the UNC Full Stack Web Development Bootcamp, I am now
-          prepared and have been using my coding skills to create apps, create
+          prepared and have been using my coding skills to create apps, create and debug
           scripts, and be a better consultant.
         </p>
       </div>
