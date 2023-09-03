@@ -13,19 +13,19 @@ const projectData = [
     img: '/chorebudylogo.png',
   },
   {
-    title: "Recipe Patch",
-    technology: "JavaScript and Third-Party APIs",
-    githubLink: "https://github.com/anicrob/recipe-patch-andrea",
-    deployment: "https://anicrob.github.io/recipe-patch-andrea/",
-    img: '/recipe-patch.png',
-  },
-  {
     title: "Fitness App",
     technology: "MySQL & Handlebars",
     githubLink:
       "https://github.com/anicrob/fitness-app",
     deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
     img: '/challenge-fitness.png',
+  },
+  {
+    title: "Recipe Patch",
+    technology: "JavaScript and Third-Party APIs",
+    githubLink: "https://github.com/anicrob/recipe-patch-andrea",
+    deployment: "https://anicrob.github.io/recipe-patch-andrea/",
+    img: '/recipe-patch.png',
   },
   {
     title: "README Generator",
