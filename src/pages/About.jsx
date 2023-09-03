@@ -46,13 +46,13 @@ export default function About() {
           my dream job, but after being in the position for a few months, I
           missed the Jira technical stuff so much, I left
           the company to become an Atlassian (Jira) Business consultant where I
-          could mix my technical and business skills. However, it is hard to
+          could mix my technical (Jira admin) and business (project management) skills. However, it is hard to
           recommend certain soutions that require examining code or scripts
           without knowing how to code.
         </p>
         <p style={style.paragraphs}>
           After finishing the UNC Full Stack Web Development Bootcamp, I am now
-          prepared and have been using my coding skills to create apps, debug
+          prepared and have been using my coding skills to create apps, create
           scripts, and be a better consultant.
         </p>
       </div>
