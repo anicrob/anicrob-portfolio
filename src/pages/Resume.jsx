@@ -13,9 +13,10 @@ export default function Resume() {
           <li>HTML, CSS, JavaScript</li>
           <li>Node.js</li>
           <li>Express.js</li>
-          <li>Databases: MongoDB, MySql</li>
+          <li>Databases: MongoDB, MySQL</li>
           <li>Mongoose and Sequelize</li>
           <li>React</li>
+          <li>Authentication: Sessions and JWTs</li>
           <li>Atlassian: Jira, Confluence, JSM, etc.</li>
         </ul>
       </div>
