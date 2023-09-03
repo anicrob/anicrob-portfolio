@@ -14,7 +14,7 @@ const projectData = [
   },
   {
     title: "Fitness App",
-    technology: "MySQL & Handlebars",
+    technology: "MVC",
     githubLink:
       "https://github.com/anicrob/fitness-app",
     deployment: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
