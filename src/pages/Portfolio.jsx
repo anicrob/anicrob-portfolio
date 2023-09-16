@@ -21,13 +21,6 @@ const projectData = [
     img: '/challenge-fitness.png',
   },
   {
-    title: "Recipe Patch",
-    technology: "JavaScript and Third-Party APIs",
-    githubLink: "https://github.com/anicrob/recipe-patch-andrea",
-    deployment: "https://anicrob.github.io/recipe-patch-andrea/",
-    img: '/recipe-patch.png',
-  },
-  {
     title: "README Generator",
     technology: "Inquirer and Node.js",
     githubLink: "https://github.com/anicrob/README_generator",
@@ -35,12 +28,27 @@ const projectData = [
     img: '/README-generator.png',
   },
   {
-    title: "Weather App",
-    technology: "Third-Party APIs and JavaScript",
+    title: "Jira Filter JQL Search Script",
+    technology: "JavaScript, Node, Jira Cloud APIs",
     githubLink:
-      "https://github.com/anicrob/weather-app-6",
-      deployment: 'https://anicrob.github.io/weather-app-6/',
-    img: '/weather-app.png',
+      "https://github.com/anicrob/jira-filter-search",
+      deployment: 'https://github.com/anicrob/jira-filter-search',
+    img: '/jira-filter-pic.png',
+  },
+  {
+    title: "Get Filters and Dashboards Owned by Inactive Users in Jira Cloud Script",
+    technology: "JavaScript, Node, Jira Cloud APIs",
+    githubLink:
+      "https://github.com/anicrob/get-inactiveuser-filters-dashboards",
+      deployment: 'https://github.com/anicrob/get-inactiveuser-filters-dashboards',
+    img: '/jira-filter-pic.png',
+  },
+  {
+    title: "Recipe Patch",
+    technology: "JavaScript and Third-Party APIs",
+    githubLink: "https://github.com/anicrob/recipe-patch-andrea",
+    deployment: "https://anicrob.github.io/recipe-patch-andrea/",
+    img: '/jira-dashboard-pic.png',
   },
 ];
 
