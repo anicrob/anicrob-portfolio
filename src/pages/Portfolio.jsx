@@ -48,7 +48,7 @@ const projectData = [
     technology: "JavaScript and Third-Party APIs",
     githubLink: "https://github.com/anicrob/recipe-patch-andrea",
     deployment: "https://anicrob.github.io/recipe-patch-andrea/",
-    img: '/jira-dashboard-pic.png',
+    img: '/recipe-patch.png',
   },
 ];
 
