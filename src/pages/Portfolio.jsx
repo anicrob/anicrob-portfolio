@@ -41,7 +41,7 @@ const projectData = [
     githubLink:
       "https://github.com/anicrob/get-inactiveuser-filters-dashboards",
       deployment: 'https://github.com/anicrob/get-inactiveuser-filters-dashboards',
-    img: '/jira-filter-pic.png',
+    img: '/jira-dashboard-pic.png',
   },
   {
     title: "Recipe Patch",
