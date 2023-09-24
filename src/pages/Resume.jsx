@@ -6,7 +6,7 @@ export default function Resume() {
     <>
       <Header />
       <div className='mx-3 mt-3'>
-        <h1>Resume Page</h1>
+        <h1>Resume & Skills</h1>
         <p>Download my resume <a href='resume.pdf' download='resume.pdf'>here</a> to read more!</p>
         <p>All technologies:</p>
         <ul>

@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Error from './pages/Error';
 import About from './pages/About';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,11 +24,11 @@ const router = createBrowserRouter([
         index: true,
         element: <About />,
       },
-      {
-        //localhost:3001/contact
-        path: '/contact',
-        element: <Contact />,
-      },
+      // {
+      //   //localhost:3001/contact
+      //   path: '/contact',
+      //   element: <Contact />,
+      // },
       {
         //localhost:3001/portfolio
         path: '/portfolio',

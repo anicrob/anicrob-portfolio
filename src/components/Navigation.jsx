@@ -30,7 +30,7 @@ function ListItem({ CurrentPage, page, children }) {
 }
 
 function Navigation() {
-  const pages = ["About", "Contact", "Portfolio", "Resume"];
+  const pages = ["About", "Portfolio", "Resume"];
   const currentPage = useLocation().pathname;
   console.log(currentPage)
   return (

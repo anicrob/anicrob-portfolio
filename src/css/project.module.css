@@ -9,6 +9,7 @@
 }
 .cardtitle {
     margin-top: 50px;
+    text-align: center;
 }
 .cardbody {
     display: contents;
