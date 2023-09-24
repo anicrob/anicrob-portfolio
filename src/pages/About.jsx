@@ -4,9 +4,10 @@ import advatar from "/advatar.png";
 
 const style = {
   paragraphs: {
-    marginLeft: 30,
-    marginRight: 30,
+    marginLeft: 100,
+    marginRight: 100,
     marginTop: 30,
+    lineHeight: 2
   },
   heading: {
     marginTop: 15,
@@ -44,15 +45,15 @@ export default function About() {
         <p style={style.paragraphs}> 
           The company opened a Project Specialist position, but after being in the position for about a year, I
           missed the Jira technical stuff so much, I left
-          the company to become an Associate Atlassian Business consultant where I
+          the company to become an Associate Atlassian Business Consultant where I
           could mix my technical (Jira admin) and business (project management) skills. However, it is hard to
           recommend certain soutions that require looking at code or scripts
           without knowing how to code. I felt very dependent on development teams.
         </p>
         <p style={style.paragraphs}>
-          Howver, after finishing the UNC Full Stack Web Development Bootcamp, I am now
-          prepared and have been using my coding skills to create apps, create and debug
-          scripts, and overall, be a better consultant.
+          However, after finishing the UNC Full Stack Web Development Bootcamp, I am now
+          prepared and have been using my coding skills to create and debug
+          scripts and overall, be a better consultant.
         </p>
       </div>
       <Footer />
