@@ -17,6 +17,7 @@ export default function Resume() {
           <li>Mongoose and Sequelize</li>
           <li>React</li>
           <li>Authentication: Sessions and JWTs</li>
+          <li>Jest</li>
           <li>Atlassian: Jira, Confluence, JSM, etc.</li>
         </ul>
       </div>
