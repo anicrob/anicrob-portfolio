@@ -42,18 +42,17 @@ export default function About() {
           so I ended up becoming an admin for that afterwards.
         </p>
         <p style={style.paragraphs}> 
-          The company opened a Project Specialist position, which I thought was
-          my dream job, but after being in the position for a few months, I
+          The company opened a Project Specialist position, but after being in the position for about a year, I
           missed the Jira technical stuff so much, I left
-          the company to become an Atlassian (Jira) Business consultant where I
+          the company to become an Associate Atlassian Business consultant where I
           could mix my technical (Jira admin) and business (project management) skills. However, it is hard to
-          recommend certain soutions that require examining code or scripts
-          without knowing how to code.
+          recommend certain soutions that require looking at code or scripts
+          without knowing how to code. I felt very dependent on development teams.
         </p>
         <p style={style.paragraphs}>
-          After finishing the UNC Full Stack Web Development Bootcamp, I am now
+          Howver, after finishing the UNC Full Stack Web Development Bootcamp, I am now
           prepared and have been using my coding skills to create apps, create and debug
-          scripts, and be a better consultant.
+          scripts, and overall, be a better consultant.
         </p>
       </div>
       <Footer />
