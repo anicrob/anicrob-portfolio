@@ -4,8 +4,8 @@ import advatar from "/advatar.png";
 
 const style = {
   paragraphs: {
-    marginLeft: 100,
-    marginRight: 100,
+    marginLeft: 75,
+    marginRight: 75,
     marginTop: 30,
     lineHeight: 2
   },
